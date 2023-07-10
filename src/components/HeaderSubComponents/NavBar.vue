@@ -1,7 +1,7 @@
 <script>
 export default {
     props: {
-        logo: Object,
+        logoHeader: Object,
         NavBarLinks: Array,
     },
 
@@ -21,7 +21,7 @@ export default {
 <template>
     <div class="container-fluid">
         <div>
-            <!-- <img class="img-fluid" :src="logo.url" :alt="logo.text"> -->
+            <img class="img-fluid" :src="logoHeader.url" :alt="logoHeader.alt">
         </div>
         <div>
             <ul>

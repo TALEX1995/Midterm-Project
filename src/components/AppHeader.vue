@@ -8,13 +8,14 @@ export default {
 
     props: {
         headerLinks: Array,
+        logoHeader: Object,
     }
 }
 </script>
 
 <template>
     <header>
-        <NavBar :NavBarLinks="headerLinks" />
+        <NavBar :NavBarLinks="headerLinks" :logoHeader="logoHeader" />
     </header>
 </template>
 
