@@ -1,7 +1,18 @@
 <script>
+import NavBar from './HeaderSubComponents/NavBar.vue'
+
+export default {
+    components: {
+        NavBar
+    }
+}
 </script>
 
-<template></template>
+<template>
+    <header>
+        <NavBar />
+    </header>
+</template>
 
 
 <style></style>
