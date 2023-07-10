@@ -5,7 +5,7 @@ export default {
 
     data() {
         return {
-            headerLinks: ['Home', 'Courses', 'About Us', 'News', 'Pages', 'Contact', 'Purchase'],
+            headerLinks: ['Home', 'Courses', 'About Us', 'News', 'Pages', 'Contact', 'Purchase', 'VIEW COURSES'],
             logoHeader: {
                 url: './assets/img/theme_eduprime_logo.png',
                 alt: 'Logo EduPrime'
@@ -39,5 +39,5 @@ export default {
 
 
 <style lang="scss">
-@use './assets/scss/style.scss' as *
+@use './assets/scss/style.scss' as *;
 </style>

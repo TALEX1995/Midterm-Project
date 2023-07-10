@@ -20,4 +20,8 @@ export default {
 </template>
 
 
-<style></style>
+<style lang="scss" scoped>
+header {
+    background-image: url(../assets/img/theme_slider2_bg-1.jpg);
+}
+</style>
