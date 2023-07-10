@@ -1,0 +1,14 @@
+@use './vars' as * ;
+
+@mixin big-button ($color){
+    padding: 20px 40px;
+    background-color: $color;
+    border-radius: 30px;
+}
+
+@mixin flexbox ($justify: center, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}

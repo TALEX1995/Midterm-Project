@@ -37,22 +37,20 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../assets/scss/vars' as *;
+@use '../../assets/scss/mixins' as *;
+
 
 img {
     width: 300px;
 }
 
 .container-fluid {
-    color: $white;
-
     a {
         color: $white;
     }
 }
 
 ul li:last-child a {
-    padding: 20px 40px;
-    background-color: $soft-yellow;
-    border-radius: 30px;
+    @include big-button($soft-yellow)
 }
 </style>

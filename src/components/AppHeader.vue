@@ -1,9 +1,10 @@
 <script>
 import NavBar from './HeaderSubComponents/NavBar.vue'
+import HeaderJumbo from './HeaderSubComponents/HeaderJumbo.vue'
 
 export default {
     components: {
-        NavBar
+        NavBar, HeaderJumbo
     },
 
     props: {
@@ -16,6 +17,7 @@ export default {
 <template>
     <header>
         <NavBar :NavBarLinks="headerLinks" :logoHeader="logoHeader" />
+        <HeaderJumbo />
     </header>
 </template>
 
@@ -23,5 +25,6 @@ export default {
 <style lang="scss" scoped>
 header {
     background-image: url(../assets/img/theme_slider2_bg-1.jpg);
+    color: white;
 }
 </style>

@@ -1,7 +1,11 @@
+@use './vars';
+
+
 ul {
     list-style-type: none;
     
-    a {
-        text-decoration: none;
-    }
+}
+
+a {
+    text-decoration: none;
 }
