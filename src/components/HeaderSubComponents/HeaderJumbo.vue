@@ -42,7 +42,8 @@ p {
 .jumbo {
     max-width: 45%;
     text-align: center;
-    padding: $rem6;
+    padding-top: $rem6;
+    padding-bottom: calc($rem6 + 130px)
 }
 
 .jumbo-container {
@@ -74,5 +75,11 @@ a {
 .jumbo-button-container {
     @include flexbox(center, center, row);
     padding-bottom: $rem3;
+}
+
+.jumbo-container {
+    background-image: url(../../assets/img/Wave-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 </style>
