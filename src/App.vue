@@ -1,5 +1,6 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
 
@@ -27,7 +28,7 @@ export default {
     },
 
     components: {
-        AppHeader,
+        AppHeader, AppMain,
     },
 }
 </script>
@@ -35,6 +36,7 @@ export default {
 
 <template>
     <AppHeader :headerLinks="headerLinks" :logoHeader="logoHeader" />
+    <AppMain />
 </template>
 
 
