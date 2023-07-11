@@ -1,10 +1,11 @@
 <script>
 import MainSectionCourses from './MainSubComponents/MainSectionCourses.vue';
 import MainSectionFaculties from './MainSubComponents/MainSectionFaculties.vue';
+import MainSectionUniversityYear from './MainSubComponents/MainSectionUniversityYear.vue';
 
 export default {
     components: {
-        MainSectionCourses, MainSectionFaculties,
+        MainSectionCourses, MainSectionFaculties, MainSectionUniversityYear,
     }
 }
 </script>
@@ -14,6 +15,7 @@ export default {
     <main>
         <MainSectionCourses />
         <MainSectionFaculties />
+        <MainSectionUniversityYear />
     </main>
 </template>
 
