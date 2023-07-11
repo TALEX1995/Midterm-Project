@@ -3,10 +3,14 @@
 
 <template>
     <div class="jumbo-container">
+
+        <!-- Jumbo Text -->
         <div class="jumbo">
             <h1>Key to your success</h1>
             <p>Edu Prime is the most versatile WorldPress theme for educational purposes, showcasing universities, courses,
                 secondary schools etc.</p>
+
+            <!-- Jumbo Buttons -->
             <div class="jumbo-button-container">
                 <div class="big-button-yellow">
                     <font-awesome-icon :icon="['fas', 'magnifying-glass']" />

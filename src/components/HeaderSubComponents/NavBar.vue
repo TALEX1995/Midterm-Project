@@ -20,11 +20,17 @@ export default {
 
 <template>
     <div class="container-fluid d-flex justify-content-between align-items-center pt-5 px-5">
+
+        <!-- Logo -->
         <div>
             <img class="img-fluid" :src="logoHeader.url" :alt="logoHeader.alt">
         </div>
+
+        <!-- Link NavBar -->
         <div>
             <ul class="d-flex">
+
+                <!-- V-for on links Array -->
                 <li class="mx-3" v-for="link in NavBarLinks">
                     <a href="#">{{ link }}</a>
                     <font-awesome-icon class="ms-2" v-if="hasDropDown(link)" :icon="['fas', 'caret-down']" />

@@ -3,19 +3,30 @@
 
 <template>
     <section>
-        <div class="purchase">Purchase Eduprime on Envato Market</div>
+        <!-- Label -->
+        <div class="purchase px-2">Purchase Eduprime on Envato Market</div>
         <div class="container">
             <div class="row row-cols-2">
-                <div>
+
+                <!-- Left col -->
+                <div class="col">
+
+                    <!-- Img books and content-->
                     <img class="img-books" src="../../assets/img/Books-icon.png" alt="Books">
                     <h1 class="py-3">Thousands of courses for any type of student</h1>
                     <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course
                         that satisfies your needs whithin a click away and applies for a course in a matter of minutes.
                         EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it
                         provides.</p>
+
+                    <!-- Link -->
                     <div class="py-5"><a href="#">Browse through courses</a></div>
                 </div>
-                <div class="p-5">
+
+                <!-- Right Col -->
+                <div class="p-5 col">
+
+                    <!-- Img Graduation -->
                     <img src="../../assets/img/Graduation-Illustration.png" alt="Graduation">
                 </div>
             </div>
