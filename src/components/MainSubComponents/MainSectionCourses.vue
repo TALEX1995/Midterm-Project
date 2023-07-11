@@ -59,7 +59,7 @@ section {
 a {
     @include big-button($soft-yellow);
     color: white;
-    box-shadow: 0 0 20px #f7f7f7;
+    box-shadow: 0 0 20px $box-shadow-color;
 }
 
 img {
