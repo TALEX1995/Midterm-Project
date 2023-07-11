@@ -83,4 +83,15 @@ img {
     line-height: 20px;
     top: -40px;
 }
+
+.purchase::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: calc(175px / 2);
+    translate: -50%;
+    border: 5px #fff solid;
+    border-top-color: $black;
+}
 </style>
