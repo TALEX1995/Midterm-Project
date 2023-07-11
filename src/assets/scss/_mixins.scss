@@ -12,3 +12,9 @@
     align-items: $align;
     flex-direction: $direction;
 }
+
+@mixin small-button ($color) {
+    padding: 10px 30px;
+    background-color: $color;
+    border-radius: 30px;
+}
