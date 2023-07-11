@@ -13,7 +13,7 @@
 
                     <!-- Img books and content-->
                     <img class="img-books" src="../../assets/img/Books-icon.png" alt="Books">
-                    <h1 class="py-3">Thousands of courses for any type of student</h1>
+                    <h1 class="py-3 h1-big-size">Thousands of courses for any type of student</h1>
                     <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course
                         that satisfies your needs whithin a click away and applies for a course in a matter of minutes.
                         EduPrime is ranked as the most versatile university in the world, thanks to the number of courses it
@@ -41,7 +41,6 @@
 
 section {
     background-image: url(../../assets/img/home-background.png);
-    color: $dark-gray-text;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -56,10 +55,6 @@ section {
     padding: 100px 0;
 }
 
-h1 {
-    font-size: $rem350;
-    font-weight: 800;
-}
 
 a {
     @include big-button($soft-yellow);

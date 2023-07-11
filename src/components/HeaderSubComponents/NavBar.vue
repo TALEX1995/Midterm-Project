@@ -53,6 +53,7 @@ img {
 .container-fluid {
     a {
         color: $white;
+        font-weight: 700;
     }
 }
 

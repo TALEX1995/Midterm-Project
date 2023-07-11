@@ -1,9 +1,10 @@
 <script>
 import MainSectionCourses from './MainSubComponents/MainSectionCourses.vue';
+import MainSectionFaculties from './MainSubComponents/MainSectionFaculties.vue';
 
 export default {
     components: {
-        MainSectionCourses,
+        MainSectionCourses, MainSectionFaculties,
     }
 }
 </script>
@@ -12,8 +13,15 @@ export default {
 <template>
     <main>
         <MainSectionCourses />
+        <MainSectionFaculties />
     </main>
 </template>
 
 
-<style></style>
+<style lang="scss" scoped>
+@use '../assets/scss/vars' as *;
+
+section {
+    color: $dark-gray-text;
+}
+</style>

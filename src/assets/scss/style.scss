@@ -1,6 +1,6 @@
-@use './vars';
+@use './vars' as *;
 
-
+// Generic
 ul {
     list-style-type: none;
     
@@ -8,4 +8,12 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+
+// Utilieties 
+
+.h1-big-size {
+    font-size: $rem350;
+    font-weight: 800;
 }
