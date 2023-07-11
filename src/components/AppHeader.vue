@@ -16,15 +16,26 @@ export default {
 
 <template>
     <header>
-        <NavBar :NavBarLinks="headerLinks" :logoHeader="logoHeader" />
-        <HeaderJumbo />
+        <div class="overlay">
+            <NavBar :NavBarLinks="headerLinks" :logoHeader="logoHeader" />
+            <HeaderJumbo />
+        </div>
     </header>
 </template>
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/vars' as *;
+
 header {
     background-image: url(../assets/img/theme_slider2_bg-1.jpg);
-    color: white;
+    color: $white;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: $bkg-header-overlay;
 }
 </style>
