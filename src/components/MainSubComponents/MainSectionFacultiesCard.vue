@@ -37,4 +37,29 @@ h5 {
     border-right: 1px solid #eaeaea;
     border-left: 1px solid #eaeaea;
 }
+
+.col:first-child h5 {
+    color: white;
+}
+
+.col:first-child {
+    color: $white;
+    background-color: $salmon;
+    position: relative;
+}
+
+.col:first-child img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(238deg) brightness(107%) contrast(106%);
+}
+
+.col:first-child::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    translate: -50%;
+    border: 15px transparent solid;
+    border-top-color: $salmon;
+}
 </style>
