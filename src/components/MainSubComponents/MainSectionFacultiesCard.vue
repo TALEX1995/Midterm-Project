@@ -12,7 +12,7 @@ export default {
     <div class="col p-5">
         <a href="#">
             <img :src="img.url" :alt="img.alt">
-            <h3 class="pt-3">{{ img.text }}</h3>
+            <h5 class="pt-3">{{ img.text }}</h5>
         </a>
     </div>
 </template>
@@ -22,16 +22,19 @@ export default {
 @use '../../assets/scss/vars' as *;
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-h3 {
+h5 {
     text-align: center;
     color: $salmon;
 }
 
 .col {
-    border-right: 2px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
 }
 </style>

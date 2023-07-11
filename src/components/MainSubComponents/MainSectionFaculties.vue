@@ -4,11 +4,34 @@ import MainSectionFacultiesCard from './MainSectionFacultiesCard.vue'
 export default {
     data() {
         return {
-            facultiesInfo: {
-                url: '/src/assets/img/Gavel-v2.png',
-                alt: 'Law',
-                text: 'Law Faculty'
-            }
+            facultiesInfo:
+                [
+                    {
+                        url: '/src/assets/img/Gavel-v2.png',
+                        alt: 'Law',
+                        text: 'Law Faculty'
+                    },
+                    {
+                        url: '/src/assets/img/Coins-tabs-v2.png',
+                        alt: 'Economy',
+                        text: 'Economy'
+                    },
+                    {
+                        url: '/src/assets/img/Medicine-tabs-v2.png',
+                        alt: 'Medicine',
+                        text: 'Medicine'
+                    },
+                    {
+                        url: '/src/assets/img/Computer-tabs-v2.png',
+                        alt: 'Computer Science',
+                        text: 'Computer Science'
+                    },
+                    {
+                        url: '/src/assets/img/Palette-tabs-v2.png',
+                        alt: 'Graphic Design',
+                        text: 'Graphic Design'
+                    },
+                ]
         }
     },
 
@@ -28,11 +51,11 @@ export default {
         <div class="faculties-card-container">
             <div class="container">
                 <div class="row row-cols-5">
-                    <MainSectionFacultiesCard :img="facultiesInfo" />
+                    <MainSectionFacultiesCard v-for="facultie in facultiesInfo" :img="facultie" />
                 </div>
             </div>
         </div>
-        <h1>aaaa</h1>
+
 
 
     </section>
