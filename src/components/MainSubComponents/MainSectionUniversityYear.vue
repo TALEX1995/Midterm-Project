@@ -6,7 +6,7 @@
         <div class="container">
             <!-- Title -->
             <div>
-                <img class="clock-img" src="../../assets/img/Clock-and-Bell.png" alt="Clock">
+                <img class="small-img m-auto" src="../../assets/img/Clock-and-Bell.png" alt="Clock">
                 <h1>University Year</h1>
             </div>
 
@@ -59,10 +59,6 @@ section {
     background-color: $salmon;
 }
 
-.clock-img {
-    margin: auto;
-    max-width: 60px;
-}
 
 h1 {
     font-size: $rem350;

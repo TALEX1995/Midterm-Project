@@ -12,7 +12,7 @@
                 <div class="col">
 
                     <!-- Img books and content-->
-                    <img class="img-books" src="../../assets/img/Books-icon.png" alt="Books">
+                    <img class="small-img" src="../../assets/img/Books-icon.png" alt="Books">
                     <h1 class="py-3 h1-big-size">Thousands of courses for any type of student</h1>
                     <p>At EduPrime, it doesn't matter what domain you wish to pursue a career in. Here you can find a course
                         that satisfies your needs whithin a click away and applies for a course in a matter of minutes.
@@ -46,11 +46,6 @@ section {
     position: relative;
 }
 
-.img-books {
-    width: 50px;
-    height: auto;
-}
-
 .container {
     padding: 100px 0;
 }
@@ -58,13 +53,9 @@ section {
 
 a {
     @include big-button($soft-yellow);
-    color: white;
     box-shadow: 0 0 20px $box-shadow-color;
 }
 
-img {
-    max-width: 100%;
-}
 
 .purchase {
     background-color: $black;

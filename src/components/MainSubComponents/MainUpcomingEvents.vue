@@ -11,7 +11,7 @@ export default {
     <section>
         <div class="container">
             <div class="py-5">
-                <img class="calendar pb-2" src="../../assets/img/upcoming-events-calendar-icon.png" alt="Clock">
+                <img class="pb-2 small-img m-auto" src="../../assets/img/upcoming-events-calendar-icon.png" alt="Clock">
                 <h1>Upcoming Events</h1>
             </div>
             <!-- Card -->
@@ -23,7 +23,7 @@ export default {
         </div>
 
         <div class="text-center pb-5 show-events-container">
-            <a class="show-events text-white" href="#">View All Events</a>
+            <a class="show-events" href="#">View All Events</a>
         </div>
     </section>
     <!-- Wave bottom -->
@@ -42,10 +42,6 @@ section {
     color: white;
 }
 
-.calendar {
-    max-width: 60px;
-    margin: auto;
-}
 
 h1 {
     font-size: $rem350;

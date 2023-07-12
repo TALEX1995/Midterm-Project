@@ -98,7 +98,6 @@ h3 {
 
 a {
     @include big-button($salmon);
-    color: white;
     box-shadow: 0 0 20px $box-shadow-color;
 }
 </style>

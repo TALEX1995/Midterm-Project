@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <div class="row g-3 justify-content-between">
+    <div class="row g-3">
         <div class="card">
             <!-- Img -->
             <img :src="course.imgUrl" class="card-img-top w-50 p-3 pt-5" :alt="course.name">
@@ -49,7 +49,6 @@ h5 {
     border: none;
 
     a {
-        color: $white;
         @include small-button($salmon);
         box-shadow: 0 0 20px $box-shadow-color;
     }
