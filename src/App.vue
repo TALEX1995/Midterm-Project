@@ -11,7 +11,9 @@ export default {
             logoHeader: {
                 url: './assets/img/theme_eduprime_logo.png',
                 alt: 'Logo EduPrime'
-            }
+            },
+            linkFooterEduPrime: ['Request a website', 'Browse Themes', 'Payment options', 'Support System', 'Checkout', 'Purchase Theme'],
+            linkFooterNetworking: ['Purchase Theme', 'Our Benefits', 'Our Team', 'Our Services', 'Other Products', 'My Account'],
         }
     },
 
@@ -38,7 +40,7 @@ export default {
 <template>
     <AppHeader :headerLinks="headerLinks" :logoHeader="logoHeader" />
     <AppMain />
-    <AppFooter :logo="logoHeader" />
+    <AppFooter :logo="logoHeader" :linkFooterEduPrime="linkFooterEduPrime" :linkFooterNetworking="linkFooterNetworking" />
 </template>
 
 
