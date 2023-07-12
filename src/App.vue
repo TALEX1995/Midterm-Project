@@ -14,6 +14,7 @@ export default {
             },
             linkFooterEduPrime: ['Request a website', 'Browse Themes', 'Payment options', 'Support System', 'Checkout', 'Purchase Theme'],
             linkFooterNetworking: ['Purchase Theme', 'Our Benefits', 'Our Team', 'Our Services', 'Other Products', 'My Account'],
+            searchCategories: ['ECONOMY', 'DESIGN', 'COACHING', 'BUSINESS', 'MEDICINE', 'LAW', 'FITNESS']
         }
     },
 
@@ -40,7 +41,8 @@ export default {
 <template>
     <AppHeader :headerLinks="headerLinks" :logoHeader="logoHeader" />
     <AppMain />
-    <AppFooter :logo="logoHeader" :linkFooterEduPrime="linkFooterEduPrime" :linkFooterNetworking="linkFooterNetworking" />
+    <AppFooter :logo="logoHeader" :linkFooterEduPrime="linkFooterEduPrime" :linkFooterNetworking="linkFooterNetworking"
+        :searchCategories="searchCategories" />
 </template>
 
 

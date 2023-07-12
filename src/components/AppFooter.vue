@@ -1,16 +1,18 @@
 <script>
 import FooterDescription from './FooterSubComponents/FooterDescription.vue';
 import FooterLinkCol from './FooterSubComponents/FooterLinkCol.vue';
+import FooterSearch from './FooterSubComponents/FooterSearch.vue';
 
 export default {
     components: {
-        FooterDescription, FooterLinkCol,
+        FooterDescription, FooterLinkCol, FooterSearch,
     },
 
     props: {
         logo: Object,
         linkFooterEduPrime: Array,
         linkFooterNetworking: Array,
+        searchCategories: Array,
     }
 }
 </script>
@@ -22,6 +24,7 @@ export default {
                 <FooterDescription :logo="logo" />
                 <FooterLinkCol :title="'Get EduPrime'" :list="linkFooterEduPrime" />
                 <FooterLinkCol :title="'Networking'" :list="linkFooterNetworking" />
+                <FooterSearch :categories="searchCategories" />
             </div>
         </div>
     </footer>
@@ -38,5 +41,6 @@ footer {
 
 .container {
     padding-top: 150px;
+    padding-bottom: 100px;
 }
 </style>
