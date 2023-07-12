@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppFixedElements from './components/AppFixedElements.vue';
 
 export default {
 
@@ -32,7 +33,7 @@ export default {
     },
 
     components: {
-        AppHeader, AppMain, AppFooter
+        AppHeader, AppMain, AppFooter, AppFixedElements
     },
 }
 </script>
@@ -43,6 +44,7 @@ export default {
     <AppMain />
     <AppFooter :logo="logoHeader" :linkFooterEduPrime="linkFooterEduPrime" :linkFooterNetworking="linkFooterNetworking"
         :searchCategories="searchCategories" />
+    <AppFixedElements />
 </template>
 
 
