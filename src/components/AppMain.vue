@@ -3,10 +3,11 @@ import MainSectionCourses from './MainSubComponents/MainSectionCourses.vue';
 import MainSectionFaculties from './MainSubComponents/MainSectionFaculties.vue';
 import MainSectionUniversityYear from './MainSubComponents/MainSectionUniversityYear.vue';
 import MainUpcomingEvents from './MainSubComponents/MainUpcomingEvents.vue';
+import MainSectionLatestCourses from './MainSubComponents/MainSectionLatestCourses.vue';
 
 export default {
     components: {
-        MainSectionCourses, MainSectionFaculties, MainSectionUniversityYear, MainUpcomingEvents,
+        MainSectionCourses, MainSectionFaculties, MainSectionUniversityYear, MainUpcomingEvents, MainSectionLatestCourses,
     }
 }
 </script>
@@ -18,6 +19,7 @@ export default {
         <MainSectionFaculties />
         <MainSectionUniversityYear />
         <MainUpcomingEvents />
+        <MainSectionLatestCourses />
     </main>
 </template>
 

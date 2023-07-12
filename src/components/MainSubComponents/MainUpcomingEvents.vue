@@ -14,6 +14,7 @@ export default {
                 <img class="calendar pb-2" src="../../assets/img/upcoming-events-calendar-icon.png" alt="Clock">
                 <h1>Upcoming Events</h1>
             </div>
+            <!-- Card -->
             <div class="row row-cols-3">
                 <CreateCardUpcomingEvents :date="'20 May 21:30 PM'" />
                 <CreateCardUpcomingEvents :date="'24 Mar 18:00 PM'" />
@@ -22,9 +23,10 @@ export default {
         </div>
 
         <div class="text-center pb-5 show-events-container">
-            <a class="show-events" href="#">View All Events</a>
+            <a class="show-events text-white" href="#">View All Events</a>
         </div>
     </section>
+    <!-- Wave bottom -->
     <div class="wave-bottom">
 
     </div>
