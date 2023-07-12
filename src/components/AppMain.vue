@@ -6,6 +6,7 @@ import MainUpcomingEvents from './MainSubComponents/MainUpcomingEvents.vue';
 import MainSectionLatestCourses from './MainSubComponents/MainSectionLatestCourses.vue';
 import MainSectionExamMethod from './MainSubComponents/MainSectionExamMethod.vue';
 import MainSectionInterStudents from './MainSubComponents/MainSectionInterStudents.vue';
+import MainSectionSubNews from './MainSubComponents/MainSectionSubNews.vue';
 
 export default {
     components: {
@@ -16,6 +17,7 @@ export default {
         MainSectionLatestCourses,
         MainSectionExamMethod,
         MainSectionInterStudents,
+        MainSectionSubNews,
     }
 }
 </script>
@@ -30,6 +32,7 @@ export default {
         <MainSectionLatestCourses />
         <MainSectionExamMethod />
         <MainSectionInterStudents />
+        <MainSectionSubNews />
     </main>
 </template>
 
