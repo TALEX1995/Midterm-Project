@@ -7,6 +7,7 @@ import MainSectionLatestCourses from './MainSubComponents/MainSectionLatestCours
 import MainSectionExamMethod from './MainSubComponents/MainSectionExamMethod.vue';
 import MainSectionInterStudents from './MainSubComponents/MainSectionInterStudents.vue';
 import MainSectionSubNews from './MainSubComponents/MainSectionSubNews.vue';
+import MainSectionPartners from './MainSubComponents/MainSectionPartners.vue';
 
 export default {
     components: {
@@ -18,6 +19,7 @@ export default {
         MainSectionExamMethod,
         MainSectionInterStudents,
         MainSectionSubNews,
+        MainSectionPartners,
     }
 }
 </script>
@@ -33,6 +35,7 @@ export default {
         <MainSectionExamMethod />
         <MainSectionInterStudents />
         <MainSectionSubNews />
+        <MainSectionPartners />
     </main>
 </template>
 
