@@ -35,6 +35,7 @@ p {
 img {
     height: 50px;
     width: auto;
+    opacity: 0.4;
 }
 
 .bkg-wave {
@@ -43,7 +44,5 @@ img {
     background-repeat: no-repeat;
     background-position: top;
     background-color: #f7f8fa;
-
-
 }
 </style>
