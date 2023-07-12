@@ -13,13 +13,16 @@
     <div class="themes">
         <div class="theme">
             <img src="../assets/svg/svg-3.svg" alt="Purchase Theme">
-            <span class="ps-2">Purchase Theme</span>
+            <a href="#" class="ps-2">Purchase Theme</a>
         </div>
         <div class="theme mt-3">
             <img src="../assets/svg/svg-2.svg" alt="Related Theme">
-            <span class="ps-2">Related Themes</span>
+            <a href="#" class="ps-2">Related Themes</a>
         </div>
+    </div>
 
+    <div class="back-upstairs">
+        <a href="#"><font-awesome-icon class="fa-2x" :icon="['fas', 'chevron-up']" /></a>
     </div>
 </template>
 
@@ -60,6 +63,21 @@ img {
 .themes {
     position: fixed;
     left: 2vw;
+    bottom: 5vh;
+}
+
+a {
+    color: $white;
+}
+
+.back-upstairs {
+    width: 50px;
+    height: 50px;
+    background-color: $soft-yellow;
+    border-radius: 50%;
+    @include flexbox(center, center);
+    position: fixed;
+    right: 2vw;
     bottom: 5vh;
 }
 </style>

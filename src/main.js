@@ -10,7 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faCaretDown, faMagnifyingGlass, faUserPlus, faPlus, faEye, faPaperPlane, faCartShopping, faBookOpen, faLifeRing } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown, faMagnifyingGlass, faUserPlus, faPlus, faEye, faPaperPlane, faCartShopping, faBookOpen, faLifeRing, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 import { faCalendarDays, faUser, faMoneyBill1 } from '@fortawesome/free-regular-svg-icons';
 
@@ -32,7 +32,8 @@ library.add(faCaretDown,
     faInstagram, 
     faCartShopping, 
     faBookOpen,
-    faLifeRing)
+    faLifeRing,
+    faChevronUp)
 
 import App from './App.vue'
 
