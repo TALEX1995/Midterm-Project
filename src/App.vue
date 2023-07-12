@@ -38,7 +38,7 @@ export default {
 <template>
     <AppHeader :headerLinks="headerLinks" :logoHeader="logoHeader" />
     <AppMain />
-    <AppFooter />
+    <AppFooter :logo="logoHeader" />
 </template>
 
 
