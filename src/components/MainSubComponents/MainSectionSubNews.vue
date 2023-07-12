@@ -12,7 +12,7 @@
                 <!-- Form -->
                 <div class="col">
                     <form @submit.prevent>
-                        <input type="e-mail">
+                        <input class="ps-4" type="e-mail" placeholder="Email address...">
                     </form>
                 </div>
             </div>
@@ -33,5 +33,13 @@ section {
 
 h1 {
     color: $white;
+}
+
+input {
+    width: 80%;
+    margin-left: $rem5;
+    line-height: $rem4;
+    border-radius: 40px;
+    border: none;
 }
 </style>
