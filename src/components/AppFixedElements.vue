@@ -3,10 +3,10 @@
 
 <template>
     <!-- Later sidebar fixed -->
-    <div class="lateral-sidebar d-flex flex-column">
-        <font-awesome-icon class="py-3" :icon="['fas', 'cart-shopping']" />
-        <font-awesome-icon :icon="['fas', 'book-open']" />
-        <font-awesome-icon class="py-3" :icon="['fas', 'life-ring']" />
+    <div class="lateral-sidebar d-flex flex-column align-items-center">
+        <a href="#"><font-awesome-icon class="py-3" :icon="['fas', 'cart-shopping']" /></a>
+        <a href="#"><font-awesome-icon :icon="['fas', 'book-open']" /></a>
+        <a href="#"><font-awesome-icon class="py-3" :icon="['fas', 'life-ring']" /></a>
     </div>
 
     <!-- Themes Fixed -->
