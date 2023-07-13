@@ -38,5 +38,9 @@
 a {
     @include big-button($salmon);
     box-shadow: 0 0 20px $box-shadow-color;
+
+    &:hover {
+        background-color: $soft-yellow;
+    }
 }
 </style>

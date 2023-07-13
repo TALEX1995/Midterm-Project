@@ -58,6 +58,11 @@ img {
 }
 
 ul li:last-child a {
-    @include big-button($soft-yellow)
+    @include big-button($soft-yellow);
+
+    &:hover {
+        background-color: $white;
+        color: $bkg-header-overlay;
+    }
 }
 </style>

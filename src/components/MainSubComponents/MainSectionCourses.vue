@@ -54,6 +54,10 @@ section {
 a {
     @include big-button($soft-yellow);
     box-shadow: 0 0 20px $box-shadow-color;
+
+    &:hover {
+        background-color: $bkg-header-overlay;
+    }
 }
 
 

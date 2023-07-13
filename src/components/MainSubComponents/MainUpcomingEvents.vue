@@ -53,6 +53,11 @@ h1 {
 
 .show-events {
     @include big-button($soft-yellow);
+
+    &:hover {
+        background-color: $salmon;
+        box-shadow: 0 0 20px #DA5F60;
+    }
 }
 
 .show-events-container {
