@@ -36,6 +36,11 @@ img {
     height: 50px;
     width: auto;
     opacity: 0.4;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .bkg-wave {
