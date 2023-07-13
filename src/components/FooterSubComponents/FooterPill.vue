@@ -8,7 +8,7 @@ export default {
 
 
 <template>
-    <span class="badge rounded-pill">{{ text }}</span>
+    <a href="#" class="badge rounded-pill">{{ text }}</a>
 </template>
 
 
